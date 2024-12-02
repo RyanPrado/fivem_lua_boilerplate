@@ -1,0 +1,21 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+[*.lua]
+indent_style = tab
+indent_size = 4
+quote_style = single
+space_around_table_field_list = false
+space_around_table_append_operator = true
+align_call_args = true
+align_function_params = true
+
+
+[*.{md,markdown}]
+indent_style = tab
+indent_size = 4
